@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Cep</title>
+</head>
+<body>
+    <h1>Cep result</h1>
+    <p th:text="'Cep: ' + ${cep.cep}" />
+    <p th:text="'Localidade: ' + ${cep.localidade}" />
+
+    <p th:text="'Bairro: ' + ${cep.bairro}" />
+    <p th:text="'UF: ' + ${cep.uf}" />
+    <p th:text="'DDD: ' +${cep.ddd}" />
+</body>
+</html>
